@@ -1,23 +1,21 @@
-
-
-describe("index.html", () => {
-  it("includes 'hello'", () => {
-    expect(document.querySelector('body').innerHTML).to.include('hello')
+describe("breakfast", () => {
+  it("has a class of breakfast", () => {
+    expect(new Breakfast()).to.be.an.instanceof(Breakfast);
   })
-
-  it("includes div", () => {
-    expect(document.querySelector('body').innerHTML, "no empty div element found within body").to.include('<div></div>')
+  it("creates a new breakfast with the correct parameters", () => {
+    bfast = new Breakfast('eggs', 'juice')
+    expect(bfast).to.equal({food: 'eggs', drink: 'juice'})
   })
-
-
 })
 
+describe("lunch", () => {
+  it("has a class of lunch", () => {
+    expect(new Lunch()).to.be.an.instanceof(Lunch);
+  })
+})
 
-describe("index.js", () => {
-  it("exists", () => {
-    expect(testVar).to.exist
-    expect(testVar).to.deep.equal({}) //without .deep, {} does not equal {}
-    expect(testFunc).to.exist
-    expect(testFunc()).to.equal('hi')
+describe("dinner", () => {
+  it("has a class of dinner", () => {
+    expect(new Dinner()).to.be.an.instanceof(Dinner);
   })
 })
