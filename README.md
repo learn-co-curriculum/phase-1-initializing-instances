@@ -28,10 +28,10 @@ new class.
 
 ```js
 class Dog {
-	constructor(name, breed) {
-		this.name = name;
-		this.breed = breed;
-	}
+  constructor(name, breed) {
+    this.name = name;
+    this.breed = breed;
+  }
 }
 ```
 
