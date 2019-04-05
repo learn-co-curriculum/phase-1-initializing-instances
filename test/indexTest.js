@@ -30,6 +30,6 @@ describe("dinner", () => {
     expect(newdinner.salad).to.equal('balsamic salad')
     expect(newdinner.soup).to.equal('consomme')
     expect(newdinner.entree).to.equal('filet mignon')
-    expect(newdinner._dessert).to.equal('cheesecake')
+    expect(newdinner.dessert).to.equal('cheesecake')
   })
 })
