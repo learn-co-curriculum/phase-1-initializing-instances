@@ -39,8 +39,8 @@ You could then create data for the class above by doing something like the
 following:
 
 ```js
-let bigFluffyDog1 = new Dog('Buzz', 'greatPyrenees');
-let bigFluffyDog2 = new Dog('Woody', 'labrador');
+let bigFluffyDog1 = new Dog("Buzz", "greatPyrenees");
+let bigFluffyDog2 = new Dog("Woody", "labrador");
 
 bigFluffyDog1; // => Dog { name: 'Buzz', breed: 'greatPyrenees' }
 bigFluffyDog2; // => Dog { name: 'Blue', breed: 'labrador' }
@@ -51,9 +51,15 @@ bigFluffyDog2; // => Dog { name: 'Blue', breed: 'labrador' }
 To practice OOP concepts, let's create 3 classes that use constructor methods.
 These constructors will assign properties based on initial parameters.
 
-1.  Create a class for `Breakfast`. `Breakfast` will have a constructor with a food and a drink.
-2.  Create a class for `Lunch`. `Lunch` will have a constructor with a salad, a soup, and a drink.
-3.  Create a class for `Dinner`. Since dinner is a little bit fancier, `Dinner` will have a constructor with salad, soup, entree, and dessert. Indicate that dessert be a private property.
+1.  Create a class for `Breakfast`. `Breakfast` will have a constructor with a
+    food and a drink.
+
+2.  Create a class for `Lunch`. `Lunch` will have a constructor with a salad, a
+    soup, and a drink.
+
+3.  Create a class for `Dinner`. Since dinner is a little bit fancier, `Dinner`
+    will have a constructor with salad, soup, entree, and dessert. Indicate that
+    dessert be a private property.
 
 ## Conclusion
 
