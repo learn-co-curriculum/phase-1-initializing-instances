@@ -37,7 +37,7 @@ let bigFluffyDog1 = new Dog("Buzz", "greatPyrenees");
 let bigFluffyDog2 = new Dog("Woody", "labrador");
 
 bigFluffyDog1; // => Dog { name: 'Buzz', breed: 'greatPyrenees' }
-bigFluffyDog2; // => Dog { name: 'Blue', breed: 'labrador' }
+bigFluffyDog2; // => Dog { name: 'Woody', breed: 'labrador' }
 ```
 
 ## Instructions
