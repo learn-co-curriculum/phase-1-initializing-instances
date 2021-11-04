@@ -74,6 +74,17 @@ class Transaction {
 }
 ```
 
+If you don't declare the private fields correctly, you'll get a syntax error
+with a long message like this when running the tests:
+
+```txt
+/phase-1-initializing-instances/node_modules/@babel/core/lib/parser/index.js:93
+    throw err;
+    ^
+
+SyntaxError: /phase-1-initializing-instances/index.js: Private name #dessert is not defined. (4:9)
+```
+
 ## Conclusion
 
 By effectively creating classes and instances, you have mastered the beginning
